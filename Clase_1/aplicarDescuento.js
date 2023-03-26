@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var rls = require("readline-sync");
+var precioFinal = 0;
+var precioProductoUno = 200;
+var precioProductoDos = 350;
+var cantidadProductoUNo = rls.questionInt("Cantidad de producto 1 que compro el usuario: ");
+var cantidadProductoUNo = rls.questionInt("Cantidad de producto 2 que compro el usuario: ");
+console.log(cantidadProductoUno);
+console.log(cantidadProductoDos);
