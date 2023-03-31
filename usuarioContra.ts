@@ -1,18 +1,13 @@
+import * as rls from "readline-sync";
 
-class Program {
-    static void Main(string[] args) {
-        string username, password;
-        Console.Write("Ingrese su nombre de usuario: ");
-        username = Console.ReadLine();
-        Console.Write("Ingrese su contraseña: ");
-        password = Console.ReadLine();
+// Validar el usuario y la contraseña
 
-        // Validar el usuario y la contraseña
-        if (username == "mi_usuario" && password == "mi_contraseña") {
-            Console.WriteLine("Inicio de sesión exitoso.");
-        } else {
-            Console.WriteLine("Usuario o contraseña incorrectos.");
-        }
-        Console.ReadKey();
-    }
-}
+let username : string = ""; rls.question("Ingrese usuario: ");
+let password : string = ""; rls.question("Ingrese password: ");
+
+if (username == "emanuel" && password == "web") {
+    console.log("Inicio de sesión exitoso.");
+} else 
+    console.log("Usuario o contraseña incorrectos.");
+
+        
